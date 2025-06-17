@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+{% load static %}
+
+{% block title %}
+    <title>{{bar}}</title>
+{% endblock title %}
+
+{% block content %}
+    <!--<img style="width: 100%" src="{% static 'menuUtama/img/banner_main.png' %}" alt="">
+    <h1>{{judul}}{{subJudul}}</h1>-->
+
+    <form action="" method="POST">
+        {%csrf_token%}
+
+        <table>
+            {{form.as_table}}
+        </table>
+        
+        <button type="submit">Simpan</button>
+    </form>
+
+{% endblock content %}

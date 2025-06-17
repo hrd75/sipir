@@ -1,0 +1,23 @@
+.masthead{
+    background-image: url('/static/img/DJI_0365.jpeg');
+    background-size: cover;
+    height: 700px;
+    min-height: 60vh;
+    position: relative;
+    color: rgb(7, 7, 7);
+    text-shadow: 2px 2px 2px rgb(248, 246, 246);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h1{
+    
+    font-size: 4rem;
+}
+
+.color-overlay{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
